@@ -1,0 +1,65 @@
+body {
+  position: relative;
+}
+#section1 {
+  padding-top:50px;
+  height:500px;
+  color: #fff;
+
+}
+#section2 {
+  padding-top:50px;
+  height:500px;
+  color: #fff;
+
+}
+#section3 {
+  padding-top:50px;
+  height:500px;
+  color: #fff;
+
+}
+#section4 {
+  padding-top:50px;
+  height:500px;
+  color: #fff;
+
+}
+#section5 {
+  padding-top:50px;
+  height:500px;
+  color: #fff;
+
+}
+#section6 {
+  padding-top:50px;
+  height:500px;
+  color: #fff;
+
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    margin: auto;
+}
+.vaga {
+    background-color: red;
+    padding: 30%;
+    border-radius: 50px;
+    margin: 1%;
+    text-align: center;
+}
+.info{
+  background-color: rgba(0, 255, 0, 0.4);
+}
+.eletra{
+  background-color: rgba(0, 0, 255, 0.6);
+}
+.automa{
+  background-color: rgba(255, 0, 0, 0.8);
+}
+.patola{
+  background-color: rgba(0, 255, 255, 1);
+}
+.quim{
+  background-color: rgba(0, 255, 0, 0.2);
+}
