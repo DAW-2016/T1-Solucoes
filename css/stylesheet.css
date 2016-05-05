@@ -1,6 +1,7 @@
 body {
 		position: relative;
 }
+#titulo {padding-top:100px;height:200px;color: #fff; background-color: #E82C0C;}
 #informatica {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
 #eletras {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
 #automa {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}

@@ -20,7 +20,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">WebSiteName</a>
+      <a class="navbar-brand" href="#">COLTEC - seção de estágios</a>
     </div>
     <div>
       <div class="collapse navbar-collapse" id="myNavbar">
@@ -35,7 +35,14 @@
     </div>
   </div>
 </nav>
+<div class="row">
+  <div class="container-fluid" id="titulo">
+    <center><h1>Coltec - estágios</h1>
+            <small><a onclick="myFunction1(5,5,'i+j')">clique aqui</a></small>
+    </center>
 
+  </div>
+</div>
 <div id="informatica" class="container-fluid">
   <center><h1>Informática</h1></center>
   <div class="row">
@@ -486,6 +493,30 @@
     </center>
   </div>
 </div>
-
 </body>
+<script type="text/javascript">
+//  Codigos para o primeiro exercício!
+function myFunction1(tami,tamj,opt){
+  var mat = [];
+  switch (opt){
+    case "i+j":
+      for(var i = 0; i < tami; i++) {
+        for(var j = 0; j < tamj; j++) {
+          mat[i][j] = tami+tamj;
+        }
+      }
+      break;
+    case "i*j":
+      break;
+    case "i==j?1:0":
+      break;
+  }
+  for(var i = 0; i < tami; i++) {
+    for(var j = 0; j < tamj; j++) {
+      console.log(mat[i][j]);
+    }
+  }
+}
+//  Fim dos codigos para o primeiro exercício!
+</script>
 </html>
