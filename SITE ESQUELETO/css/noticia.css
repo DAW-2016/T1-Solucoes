@@ -1,0 +1,133 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+body{
+    background-color: #FBFBFB;
+    max-width: 1200px;
+    margin:0 auto;
+    font-family: 'Raleway', sans-serif ;  
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+p{
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: justify;
+    font-family: Georgia;
+    font-size: 22px;
+}
+
+p:first-of-type::first-letter {
+    font-size: 66px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+h3{
+    text-align: center;
+    color: white;
+}
+
+#page{
+    width: 100%;
+    padding-top: 70px;
+}
+
+.pe{
+    width: 100%;
+    height: 60px;
+    margin-top: 100px;
+    text-align: right;
+    background-color: #F5F5F5;
+    border-top: 1px solid;
+    border-color: #BFBFBF;
+    float: left;
+    padding-left: 100%;
+    margin-left: -100%;
+    padding-right: 100%;
+    margin-right: -100%;
+}
+
+.menu{
+    max-width: 1200px;
+    width: 100%;
+    padding-left: 100%;
+    margin-left: -100%;
+    padding-right: 100%;
+    margin-right: -100%;
+    height: 60px;
+    background-color: #F5F5F5;  
+    position: fixed;
+    border-bottom: 1px solid;
+    border-color: #BFBFBF;
+}   .logo{
+        float: left;
+        margin-left: 2%;
+        margin-right: 7%;
+        margin-top: 10px;
+        transition: all 0.2s;
+    } .logo:hover{
+        transform: scale(1.2);
+    }
+    .titulo{
+        color: black;
+        float: left;
+        width: 10%;
+        margin-right: 22%;
+        margin-top: 10px;
+        font-family: fantasy;
+        transition: all 0.2s;
+    }   .titulo:hover{
+            color: #555555;
+            transform: scale(1.2);
+        }
+    .botaoMenu{
+        width: 15%;
+        float: left;
+        padding: 5px;
+        padding-left: 0.1%;
+        padding-right: 0.1%;
+        border: 1px solid;
+        border-color: #666666;
+        border-radius: 3px;
+        background-color: #E0E0E0;  
+        margin-left: 2%;
+        margin-top: 15px;
+        text-align: center;
+        transition: all 0.2s;
+    }   .botaoMenu:hover{
+            background-color: #FAFAFA;
+            transform: scale(1.1);
+        }
+
+.foto{
+    margin-top: -20px;
+    margin-bottom: 25px;
+    width: 100%;
+    height: 900px;
+    background-image: url(http://lorempixel.com/1600/900);
+}
+
+.tituloNot{
+    width: 50%;
+    height: 80px;
+    margin-top: 250px;
+    margin-right: 25%;
+    margin-left: 25%;
+    float: left;
+}
+
+.subtitulo{
+    width: 50%;
+    height: 80px;
+    margin-top: 20px;
+    margin-right: 25%;
+    margin-left: 25%;
+    float: left;
+}
