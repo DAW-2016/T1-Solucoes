@@ -1,13 +1,11 @@
 body {
-		 position: relative;
-		 background: #371A22;
-	 		color: #1d302b;
+		position: relative;
 }
-#section1 {padding-top:50px;height:150px;color: #fff; background-color: #1E88E5;}
-#section2 {padding-top:50px;height:150px;color: #fff; background-color: #673ab7;}
-#section3 {padding-top:50px;height:150px;color: #fff; background-color: #ff9800;}
-#section4 {padding-top:50px;height:150px;color: #fff; background-color: #00bcd4;}
-#section5 {padding-top:50px;height:150px;color: #fff; background-color: #009688;}
+#informatica {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+#eletras {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+#automa {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+#quimica {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+#analises {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
 
 #botao{
 	color: #000;
