@@ -1,0 +1,63 @@
+.info{
+  background-color: #90C3D4;
+}
+
+.auto{
+  background-color: #FFBD33;
+}
+
+.eletras{
+  background-color: #FF5733;
+}
+
+.quim{
+  background-color: #33FFBD;
+}
+
+.anal{
+  background-color: #B6D03C;
+}
+
+.auto, .info, .quim, .eletras, .anal{
+  display: block;
+  margin-top: 1em;
+}
+.cursos{
+  list-style-type: none;
+}
+.login{
+  margin: 0.5em;
+  margin-right: 1.5em;
+}
+.page-header{
+  padding-top: 1.5em;
+}
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+.entry{
+  width: 25em;
+  height: 15em;
+  border-style: solid;
+  border-width: thin;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -20em;
+  margin-left: -5em;
+  background-color: #C1D3EE;
+  border-radius: 0.5em;
+}
+.entry2{
+  width: 25em;
+  height: 25em;
+  border-style: solid;
+  border-width: thin;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -20em;
+  margin-left: -5em;
+  background-color: #C1D3EE;
+  border-radius: 0.5em;
+}
