@@ -1,0 +1,60 @@
+.grey{
+  background-color: grey;
+}
+
+.ajuste{
+  padding-top: 50px;
+}
+
+#noticias{
+  border-radius: 20px;
+  background-color: grey;
+}
+
+#info>div{
+  border-radius: 20px;
+  background-color: lightblue;
+}
+
+#eletras>div{
+  border-radius: 20px;
+  background-color: lightgreen;
+}
+
+#instrums>div{
+  border-radius: 20px;
+  background-color: red;
+}
+
+#patola>div{
+  border-radius: 20px;
+  background-color: yellow;
+}
+
+#quimica>div{
+  border-radius: 20px;
+  background-color: purple;
+}
+
+.grande{
+  height: 1000px;
+}
+
+.vaga{
+  height: 300px;
+  border-radius: 20px;
+  background-color: #DDD;
+}
+
+.bonito{
+  border-radius: 20px;
+  background-color: #0CE;
+}
+
+.tristeza{
+  background-color: #C20;
+}
+
+img{
+  margin: auto;
+}
