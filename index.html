@@ -1,84 +1,481 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <link rel="shortcut icon" href="fotos/favicon.ico" type="image/x-icon" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link href="css/stylesheet.css" rel="stylesheet">
-  <link href="css/bootstrap-theme.css" rel="stylesheet" >
-  <title>Home</title>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css\stylesheet.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      position: relative;
+  }
+  #informatica {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+  #eletras {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+  #automa {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+  #quimica {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+  #analises {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
+  </style>
 </head>
-
-<body>
-  <nav class="navbar navbar-inverse" id="NavBar">
-    <div class="container-fluid">
-      <!-- Aqui a nav bar recebe um toque especial para dispositivos móveis -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
-        </button>
-        <a id="itemNavBarTit" class="navbar-brand" href="index.html"><i class="fa fa-git fa-lg"></i> <i class="fa fa-github fa-lg"></i>abmBispo</a>
-      </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      </button>
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-          <li class="ativo"><a href="index.html" id="itemNavBar">Home</a></li>
-          <li class="itemSel"><a id="itemNavBar" href="projetos.html">Link 1<span class="sr-only">(current)</span></a></li>
-          <li class="itemSel"><a id="itemNavBar" href="formacao.html">Link 2<span class="sr-only">(current)</span></a></li>
-          <li class="itemSel"><a id="itemNavBar" href="https://plus.google.com/u/0/103422875897111377590" target="_blank"><i class="fa fa-google-plus-square fa-lg"></i><span class="sr-only">(current)</span></a>
+          <li><a href="#informatica">Informática</a></li>
+          <li><a href="#eletras">Eletrônica</a></li>
+          <li><a href="#automa">Automação Industrial</a></li>
+          <li><a href="#quimica">Química</a></li>
+          <li><a href="#analises">Análises Clínicas</a></li>
         </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav>
-  <div class="container">
-    <div class="jumbotron" id="title">
-      <h1>Titulo principal</h1>
-      <p>subtitulo</p>
-    </div>
-    <div class="row">
-      <div class="col-md-12 col-xs-12">
-        <div class="well" id="conteudo">
-          <center>
-            <div class="page-header Ssubtitulos">
-              <h1>titulo da subseção</h1>
-            </div>
-          </center>
-          <div class="page-header subtitulos">
-            <h3>subtitulo da subseção<br>&nbsp&nbsp&nbsp&nbsp <small>prévia</small></h3>
-            </div>
-            <p class="paragraf">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p class="paragraf">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p class="paragraf">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
-            </div>
-        </div>
       </div>
     </div>
+  </div>
+</nav>
 
-    <div class="container-fluid" id="rodape">
-      <br/><br/><br/>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 col-xs-12">
-            <h1 class="coments">Políticas</h1>
-            <p class="coments">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
-          <div class="col-md-4 col-xs-12">
-              <p> </p></div>
-          <div class="col-md-4 col-xs-12">
-            <h1 class="coments">Contatos</h1>
-            <p class="coments"><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbspalan.bmbispo@gmail.com</span><br/><br/><i class="fa fa-mobile fa-2x"></i>&nbsp&nbsp+55 (31) 9 9295-7388<br/><br/><i class="fa fa-phone fa-2x"></i>&nbsp&nbsp+55 (31) 3889-7072</p></div>
-          </div>
-          <br/><br/><br/>
+<div id="informatica" class="container-fluid">
+  <center><h1>Informática</h1></center>
+  <div class="row">
+    <div class="col-md-1">
+      <p>
+      </p>
+    </div>
+  <div class="col-md-10">
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+  </div>
+  </div>
+  <div class="col-md-4 col-xs-12">
+    <div id="blocosEscola">
+      <div  class="jumbotron blocos" id="bloco1">
+        <h4>ESTÁGIO NO COLTEC - UFMG</h4>
+        <ul>
+          <li><strong>Descrição:</strong>&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li><br>
+          <li><strong>Valor:</strong>&nbsp;R$0,50</li><br>
+          <li><strong>Data de término:</strong>&nbsp;Ontem.</li>
+        </ul>
       </div>
     </div>
-    <!-- jQuery (necessario para os plugins Javascript Bootstrap) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-    <!-- Javascript do Bootstrap -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-  </body>
-  </html>
+    <br>
+    <center>
+      <button type="button" name="button" class="btn btn-sm btn-success">
+        Detalhes
+      </button>
+      <button type="button" name="button" class="btn btn-sm btn-primary">
+        Compartilhe
+      </button>
+      <button type="button" name="button" class="btn btn-sm btn-warning">
+        Inscreva-se
+      </button>
+    </center>
+    
+  </div>
+  <div class="col-md-4 col-xs-12">
+    <div id="blocosEscola">
+      <div  class="jumbotron blocos" id="bloco1">
+        <h4>ESTÁGIO NA ENGENHARIA</h4>
+        <ul>
+          <li><strong>Descrição:</strong>&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li><br>
+          <li><strong>Valor:</strong>&nbsp;R$0,50</li><br>
+          <li><strong>Data de término:</strong>&nbsp;Ontem.</li><br>
+        </ul>
+      </div>
+    </div>
+    <br>
+    <center>
+      <button type="button" name="button" class="btn btn-sm btn-success">
+        Detalhes
+      </button>
+      <button type="button" name="button" class="btn btn-sm btn-primary">
+        Compartilhe
+      </button>
+      <button type="button" name="button" class="btn btn-sm btn-warning">
+        Inscreva-se
+      </button>
+    </center>
+  </div>
+  <div class="col-md-4 col-xs-12">
+    <div id="blocosEscola">
+      <div  class="jumbotron blocos" id="bloco1">
+        <h4>ESTÁGIO NA PQP...</h4>
+        <ul>
+          <li><strong>Descrição:</strong>&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li><br>
+          <li><strong>Valor:</strong>&nbsp;R$0,50</li><br>
+          <li><strong>Data de término:</strong>&nbsp;Ontem.</li><br>
+        </ul>
+      </div>
+    </div>
+    <br>
+    <center>
+      <button type="button" name="button" class="btn btn-sm btn-success">
+        Detalhes
+      </button>
+      <button type="button" name="button" class="btn btn-sm btn-primary">
+        Compartilhe
+      </button>
+      <button type="button" name="button" class="btn btn-sm btn-warning">
+        Inscreva-se
+      </button>
+    </center>
+  </div>
+</div>
+
+<div id="eletras" class="container-fluid">
+  <center><h1>Eletrônica</h1></center>
+  <div class="row">
+    <div class="col-md-1">
+      <p>
+      </p>
+    </div>
+  <div class="col-md-10">
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+  </div>
+  </div>
+  <div class="col-md-4 col-xs-12">
+    <div id="blocosEscola">
+      <div  class="jumbotron blocos" id="bloco1">
+        <h4>ESTÁGIO NO COLTEC - UFMG</h4>
+        <ul>
+          <li><strong>Descrição:</strong>&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li><br>
+          <li><strong>Valor:</strong>&nbsp;R$0,50</li><br>
+          <li><strong>Data de término:</strong>&nbsp;Ontem.</li>
+        </ul>
+      </div>
+    </div>
+    <br>
+    <center>
+      <button type="button" name="button" class="btn btn-sm btn-success">
+        Detalhes
+      </button>
+      <button type="button" name="button" class="btn btn-sm btn-primary">
+        Compartilhe
+      </button>
+      <button type="button" name="button" class="btn btn-sm btn-warning">
+        Inscreva-se
+      </button>
+    </center>
+  </div>
+  <div class="col-md-4 col-xs-12">
+    <div id="blocosEscola">
+      <div  class="jumbotron blocos" id="bloco1">
+        <h4>ESTÁGIO NA ENGENHARIA</h4>
+        <ul>
+          <li><strong>Descrição:</strong>&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li><br>
+          <li><strong>Valor:</strong>&nbsp;R$0,50</li><br>
+          <li><strong>Data de término:</strong>&nbsp;Ontem.</li><br>
+        </ul>
+      </div>
+    </div>
+    <br>
+    <center>
+      <button type="button" name="button" class="btn btn-sm btn-success">
+        Detalhes
+      </button>
+      <button type="button" name="button" class="btn btn-sm btn-primary">
+        Compartilhe
+      </button>
+      <button type="button" name="button" class="btn btn-sm btn-warning">
+        Inscreva-se
+      </button>
+    </center>
+  </div>
+  <div class="col-md-4 col-xs-12">
+    <div id="blocosEscola">
+      <div  class="jumbotron blocos" id="bloco1">
+        <h4>ESTÁGIO NA PQP...</h4>
+        <ul>
+          <li><strong>Descrição:</strong>&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li><br>
+          <li><strong>Valor:</strong>&nbsp;R$0,50</li><br>
+          <li><strong>Data de término:</strong>&nbsp;Ontem.</li><br>
+        </ul>
+      </div>
+    </div>
+    <br>
+    <center>
+      <button type="button" name="button" class="btn btn-sm btn-success">
+        Detalhes
+      </button>
+      <button type="button" name="button" class="btn btn-sm btn-primary">
+        Compartilhe
+      </button>
+      <button type="button" name="button" class="btn btn-sm btn-warning">
+        Inscreva-se
+      </button>
+    </center>
+  </div>
+</div>
+<div id="automa" class="container-fluid">
+  <center><h1>Automação Industrial</h1></center>
+  <div class="row">
+    <div class="col-md-1">
+      <p>
+      </p>
+    </div>
+  <div class="col-md-10">
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+  </div>
+  </div>
+  <div class="col-md-4 col-xs-12">
+    <div id="blocosEscola">
+      <div  class="jumbotron blocos" id="bloco1">
+        <h4>ESTÁGIO NO COLTEC - UFMG</h4>
+        <ul>
+          <li><strong>Descrição:</strong>&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li><br>
+          <li><strong>Valor:</strong>&nbsp;R$0,50</li><br>
+          <li><strong>Data de término:</strong>&nbsp;Ontem.</li>
+        </ul>
+      </div>
+    </div>
+    <br>
+    <center>
+      <button type="button" name="button" class="btn btn-sm btn-success">
+        Detalhes
+      </button>
+      <button type="button" name="button" class="btn btn-sm btn-primary">
+        Compartilhe
+      </button>
+      <button type="button" name="button" class="btn btn-sm btn-warning">
+        Inscreva-se
+      </button>
+    </center>
+  </div>
+  <div class="col-md-4 col-xs-12">
+    <div id="blocosEscola">
+      <div  class="jumbotron blocos" id="bloco1">
+        <h4>ESTÁGIO NA ENGENHARIA</h4>
+        <ul>
+          <li><strong>Descrição:</strong>&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li><br>
+          <li><strong>Valor:</strong>&nbsp;R$0,50</li><br>
+          <li><strong>Data de término:</strong>&nbsp;Ontem.</li><br>
+        </ul>
+      </div>
+    </div>
+    <br>
+    <center>
+      <button type="button" name="button" class="btn btn-sm btn-success">
+        Detalhes
+      </button>
+      <button type="button" name="button" class="btn btn-sm btn-primary">
+        Compartilhe
+      </button>
+      <button type="button" name="button" class="btn btn-sm btn-warning">
+        Inscreva-se
+      </button>
+    </center>
+  </div>
+  <div class="col-md-4 col-xs-12">
+    <div id="blocosEscola">
+      <div  class="jumbotron blocos" id="bloco1">
+        <h4>ESTÁGIO NA PQP...</h4>
+        <ul>
+          <li><strong>Descrição:</strong>&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li><br>
+          <li><strong>Valor:</strong>&nbsp;R$0,50</li><br>
+          <li><strong>Data de término:</strong>&nbsp;Ontem.</li><br>
+        </ul>
+      </div>
+    </div>
+    <br>
+    <center>
+      <button type="button" name="button" class="btn btn-sm btn-success">
+        Detalhes
+      </button>
+      <button type="button" name="button" class="btn btn-sm btn-primary">
+        Compartilhe
+      </button>
+      <button type="button" name="button" class="btn btn-sm btn-warning">
+        Inscreva-se
+      </button>
+    </center>
+  </div>
+</div>
+<div id="quimica" class="container-fluid">
+  <center><h1>Quimica</h1></center>
+  <div class="row">
+    <div class="col-md-1">
+      <p>
+      </p>
+    </div>
+  <div class="col-md-10">
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+  </div>
+  </div>
+  <div class="col-md-4 col-xs-12">
+    <div id="blocosEscola">
+      <div  class="jumbotron blocos" id="bloco1">
+        <h4>ESTÁGIO NO COLTEC - UFMG</h4>
+        <ul>
+          <li><strong>Descrição:</strong>&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li><br>
+          <li><strong>Valor:</strong>&nbsp;R$0,50</li><br>
+          <li><strong>Data de término:</strong>&nbsp;Ontem.</li>
+        </ul>
+      </div>
+    </div>
+    <br>
+    <center>
+      <button type="button" name="button" class="btn btn-sm btn-success">
+        Detalhes
+      </button>
+      <button type="button" name="button" class="btn btn-sm btn-primary">
+        Compartilhe
+      </button>
+      <button type="button" name="button" class="btn btn-sm btn-warning">
+        Inscreva-se
+      </button>
+    </center>
+  </div>
+  <div class="col-md-4 col-xs-12">
+    <div id="blocosEscola">
+      <div  class="jumbotron blocos" id="bloco1">
+        <h4>ESTÁGIO NA ENGENHARIA</h4>
+        <ul>
+          <li><strong>Descrição:</strong>&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li><br>
+          <li><strong>Valor:</strong>&nbsp;R$0,50</li><br>
+          <li><strong>Data de término:</strong>&nbsp;Ontem.</li><br>
+        </ul>
+      </div>
+    </div>
+    <br>
+    <center>
+      <button type="button" name="button" class="btn btn-sm btn-success">
+        Detalhes
+      </button>
+      <button type="button" name="button" class="btn btn-sm btn-primary">
+        Compartilhe
+      </button>
+      <button type="button" name="button" class="btn btn-sm btn-warning">
+        Inscreva-se
+      </button>
+    </center>
+  </div>
+  <div class="col-md-4 col-xs-12">
+    <div id="blocosEscola">
+      <div  class="jumbotron blocos" id="bloco1">
+        <h4>ESTÁGIO NA PQP...</h4>
+        <ul>
+          <li><strong>Descrição:</strong>&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li><br>
+          <li><strong>Valor:</strong>&nbsp;R$0,50</li><br>
+          <li><strong>Data de término:</strong>&nbsp;Ontem.</li><br>
+        </ul>
+      </div>
+    </div>
+    <br>
+    <center>
+      <button type="button" name="button" class="btn btn-sm btn-success">
+        Detalhes
+      </button>
+      <button type="button" name="button" class="btn btn-sm btn-primary">
+        Compartilhe
+      </button>
+      <button type="button" name="button" class="btn btn-sm btn-warning">
+        Inscreva-se
+      </button>
+    </center>
+  </div>
+</div>
+<div id="analises" class="container-fluid">
+  <center><h1>Análises Clínicas</h1></center>
+  <div class="row">
+    <div class="col-md-1">
+      <p>
+      </p>
+    </div>
+  <div class="col-md-10">
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+  </div>
+  </div>
+  <div class="col-md-4 col-xs-12">
+    <div id="blocosEscola">
+      <div  class="jumbotron blocos" id="bloco1">
+        <h4>ESTÁGIO NO COLTEC - UFMG</h4>
+        <ul>
+          <li><strong>Descrição:</strong>&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li><br>
+          <li><strong>Valor:</strong>&nbsp;R$0,50</li><br>
+          <li><strong>Data de término:</strong>&nbsp;Ontem.</li>
+        </ul>
+      </div>
+    </div>
+    <br>
+    <center>
+      <button type="button" name="button" class="btn btn-sm btn-success">
+        Detalhes
+      </button>
+      <button type="button" name="button" class="btn btn-sm btn-primary">
+        Compartilhe
+      </button>
+      <button type="button" name="button" class="btn btn-sm btn-warning">
+        Inscreva-se
+      </button>
+    </center>
+  </div>
+  <div class="col-md-4 col-xs-12">
+    <div id="blocosEscola">
+      <div  class="jumbotron blocos" id="bloco1">
+        <h4>ESTÁGIO NA ENGENHARIA</h4>
+        <ul>
+          <li><strong>Descrição:</strong>&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li><br>
+          <li><strong>Valor:</strong>&nbsp;R$0,50</li><br>
+          <li><strong>Data de término:</strong>&nbsp;Ontem.</li><br>
+        </ul>
+      </div>
+    </div>
+    <br>
+    <center>
+      <button type="button" name="button" class="btn btn-sm btn-success">
+        Detalhes
+      </button>
+      <button type="button" name="button" class="btn btn-sm btn-primary">
+        Compartilhe
+      </button>
+      <button type="button" name="button" class="btn btn-sm btn-warning">
+        Inscreva-se
+      </button>
+    </center>
+  </div>
+  <div class="col-md-4 col-xs-12">
+    <div id="blocosEscola">
+      <div  class="jumbotron blocos" id="bloco1">
+        <h4>ESTÁGIO NA PQP...</h4>
+        <ul>
+          <li><strong>Descrição:</strong>&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li><br>
+          <li><strong>Valor:</strong>&nbsp;R$0,50</li><br>
+          <li><strong>Data de término:</strong>&nbsp;Ontem.</li><br>
+        </ul>
+      </div>
+    </div>
+    <br>
+    <center>
+      <button type="button" name="button" class="btn btn-sm btn-success">
+        Detalhes
+      </button>
+      <button type="button" name="button" class="btn btn-sm btn-primary">
+        Compartilhe
+      </button>
+      <button type="button" name="button" class="btn btn-sm btn-warning">
+        Inscreva-se
+      </button>
+    </center>
+  </div>
+</div>
+
+</body>
+</html>

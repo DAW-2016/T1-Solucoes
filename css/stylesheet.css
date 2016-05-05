@@ -1,7 +1,14 @@
-body{
-	background: #371A22;
-	color: #1d302b;
+body {
+		 position: relative;
+		 background: #371A22;
+	 		color: #1d302b;
 }
+#section1 {padding-top:50px;height:150px;color: #fff; background-color: #1E88E5;}
+#section2 {padding-top:50px;height:150px;color: #fff; background-color: #673ab7;}
+#section3 {padding-top:50px;height:150px;color: #fff; background-color: #ff9800;}
+#section4 {padding-top:50px;height:150px;color: #fff; background-color: #00bcd4;}
+#section5 {padding-top:50px;height:150px;color: #fff; background-color: #009688;}
+
 #botao{
 	color: #000;
 }
@@ -235,7 +242,7 @@ a:hover, a:visited, a:active, a:link{
 		display: auto;
 		}
 	#blocosEscola{
-		display: none;
+		display: auto;
 		}
 	.MyIframe{
 		width:600px;
@@ -272,7 +279,9 @@ a:hover, a:visited, a:active, a:link{
 		display: auto;
 		}
 	#blocosEscola{
-		display: none;
+		display: auto;
+		max-height: 250px;
+		overflow: hidden;
 		}
 	.MyIframe{
 		width:900px;
@@ -284,8 +293,8 @@ a:hover, a:visited, a:active, a:link{
 
 	#myImgCarousel{
 		border-radius:5px;
-		height:400px;
-		width:400px;
+		height:600px;
+		width:700px;
 	}
 	#myImgCarousel2{
 		border-radius:5px;
@@ -293,8 +302,8 @@ a:hover, a:visited, a:active, a:link{
 		width:600px;
 	}
 	#myCarousel{
-		max-height:500px;
-		max-width:600px;
+		max-height:800px;
+		max-width:900px;
 	}
 	#myCarousel2{
 		max-height:350px;
