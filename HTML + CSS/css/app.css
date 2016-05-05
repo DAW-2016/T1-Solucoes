@@ -1,0 +1,23 @@
+.btop {
+  margin-bottom: -0.5%;
+}
+.mobile {
+  float: none;
+  visibility: hidden;
+}
+
+@media  only screen and (max-width:720px) {
+    .btop{
+      width: 100%;
+      margin-bottom: 1%;
+      margin-left: -3%;
+    }
+    .pc {
+      float: none;
+      visibility: hidden;
+    }
+    .mobile{
+      visibility: visible;
+      margin-top: -80%;
+    }
+}
