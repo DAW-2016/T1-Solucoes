@@ -1,0 +1,57 @@
+.table-borderless tbody tr td, .table-borderless tbody tr th, .table-borderless thead tr th {
+    border: none;
+}
+
+/*td.input-form-side-by-side:first-child {
+  padding-right: 4px;
+  width: 50%;
+}
+
+td.input-form-side-by-side:last-child {
+  padding-left: 4px;
+  width: 50%;
+}*/
+
+
+body {
+  background-image: url(../img/bg.png);
+  background-repeat: repeat;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial;
+    font-weight: 700;
+}
+
+#secao_instrums, #secao_info, #secao_patola, #secao_quimica, #secao_eletronica {
+    margin-bottom: 50px;
+}
+
+#secao_instrums {
+    background-color: #69696C;
+}
+
+#secao_info {
+    background-color: #63645F;
+}
+
+#secao_patola {
+    background-color: #A3938B;
+}
+
+#secao_quimica {
+    background-color: #897D79;
+}
+
+#secao_eletronica {
+    background-color: #49473F;
+}
+
+#myCarousel {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.botao-modal {
+    margin-bottom: 10%;
+}
